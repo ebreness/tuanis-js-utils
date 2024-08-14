@@ -1,0 +1,27 @@
+{
+  "name": "@tuanis/utils",
+  "version": "0.0.1",
+  "description": "Javascript Utils",
+  "author": "ebreness",
+  "license": "GPL-3.0-or-later",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "homepage": "https://github.com/ebreness/tuanis-js-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebreness/tuanis-js-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebreness/tuanis-js-utils/issues"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
